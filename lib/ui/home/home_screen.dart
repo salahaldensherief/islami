@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:islami/ui/home/hadeth/HadethTab.dart';
+
 import 'package:islami/ui/home/quran/QuranTab.dart';
 import 'package:islami/ui/home/radio/RadioTab.dart';
+
 import 'package:islami/ui/home/tasbeh/TasbehTab.dart';
 
 class HomeScreen extends StatefulWidget {
@@ -55,8 +57,8 @@ body: tabs[selectedTabIndex],
   }
   List<Widget> tabs =[
     QuranTab(),
-    Tasbehtab(),
-    RadioTab(),
     HadethTab(),
+    TasbehTab(),
+   RadioTab()
   ];
 }

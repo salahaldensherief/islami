@@ -1,10 +1,12 @@
 import 'package:flutter/material.dart';
 
-class Tasbehtab extends StatelessWidget {
-  const Tasbehtab({super.key});
+class TasbehTab extends StatelessWidget {
+
 
   @override
   Widget build(BuildContext context) {
-    return const Placeholder(  color: Colors.limeAccent,);
+    return const Placeholder(
+      color: Colors.cyanAccent,
+    );
   }
 }
